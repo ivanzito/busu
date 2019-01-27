@@ -1,0 +1,48 @@
+body {
+  background-color: #0000ff;
+}
+
+.border {
+  text-align: center;
+  padding: 15% 0;
+}
+
+.border .busu {
+  font-size: 40px;
+  color: white;
+}
+
+.border .busu_complemento {
+  font-size: 20px;
+  color: white;
+}
+
+.border .border-mail {
+  margin-top: 5%;
+}
+
+.border .border-pwd, .border .actions-login {
+  margin-top: 1%;
+}
+
+.border .criar_conta {
+  margin-left: 5%;
+  margin-top: 2%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.border .sso-redes-sociais {
+  display: inline-block;
+}
+
+.border .sso-redes-sociais h4 {
+  font-size: 20px;
+  color: white;
+}
+
+.border .social_media {
+  margin-left: 20px;
+}
+/*# sourceMappingURL=Login.css.map */

@@ -1,0 +1,11 @@
+.button-default {
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 32px;
+  margin: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+/*# sourceMappingURL=button.css.map */
