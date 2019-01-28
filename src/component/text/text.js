@@ -5,7 +5,7 @@ function Text(props) {
   return (
     <span>
       <label>{props.label}</label>
-      <input type="text" className="text-default">
+      <input type="text" onChange={props.change} className="text-default" id={props.id}>
         {props.children}
       </input>
     </span>
