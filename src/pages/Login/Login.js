@@ -18,7 +18,7 @@ export default class Login extends React.Component {
         let email = document.querySelector('#email').value
         let senha = document.querySelector('#senha').value
         this.setState({'email': email, 'password': senha, 'jwt': ''})
-        let jwt = fetch('https://nbusu-api.herokuapp.com/login',
+        let jwt = fetch('https://nbusu-api.herokuapp.com/users/login',
         {
             method: 'post',
             headers: {'Content-Type':'application/json'},
